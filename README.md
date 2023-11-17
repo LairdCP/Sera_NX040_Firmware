@@ -40,7 +40,7 @@ This hardware interface is provided by an RP2040 SoC installed on the DVK board 
 
 To access the Python REPL, open a terminal to the Python REPL Console serial port that appears after you’ve programmed the Canvas Firmware onto your Sera NX040 DVK using `pyocd` above. The terminal should display a `>>>` prompt when you press the ENTER key.
 From this prompt, you can type Python statements and interact with the DVK hardware directly. For more information on general APIs available from MicroPython, please refer to the [MicroPython Libraries ](https://docs.micropython.org/en/latest/library/index.html "https://docs.micropython.org/en/latest/library/index.html")page. Note that not all libraries are supported by the Sera NX040 but this will still serve as a good reference for many common built-in functions and provide a good overview of MicroPython functionality.
-For hardware-specific APIs pertaining to the Sera NX040 board specifically, please refer to the [Canvas Python API Documentation](https://rfpros.github.io/canvas_python_docs "https://rfpros.github.io/canvas_python_docs") page.
+For hardware-specific APIs pertaining to the Sera NX040 board specifically, please refer to the [Canvas Python API Documentation](https://lairdcp.github.io/canvas_python_docs "https://lairdcp.github.io/canvas_python_docs") page.
 The REPL interface via serial port is the primary interface used by Canvas tools to load/save Python scripts onto the Sera NX040 module.
 
 # Developing Python Scripts on the Sera NX040 Module
