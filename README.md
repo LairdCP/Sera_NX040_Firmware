@@ -6,7 +6,7 @@ This firmware is distributed as a `.hex` file for use with programming tools suc
 ![Canvas Logo](img/canvas_logo.png)
 
 This firmware is a part of the <strong>Canvas Software Suite</strong> platform providing firmware, tools, documentation and sample applications to simplify software development on Laird Connectivity wireless products.
-For more information about Canvas Software Suite see [https://www.lairdconnect.com.canvas](https://www.lairdconnect.com.canvas/ "https://www.lairdconnect.com.canvas").
+For more information about Canvas Software Suite see [https://www.lairdconnect.com/canvas](https://www.lairdconnect.com/canvas "https://www.lairdconnect.com/canvas").
 If you would like to develop on the Sera NX040 module directly with the Nordic nRFConnect SDK, please contact [Laird Connectivity support](https://www.lairdconnect.com/resources/support "https://www.lairdconnect.com/resources/support") for assistance.
 
 # Getting Started - Sera NX040 DVK
@@ -20,7 +20,7 @@ The primary interface used for programming and interfacing with the Sera NX040 D
 
 # Programming Canvas Firmware with pyOCD
 
-To program Canvas Firmware onto the Sera NX040 DVK, use the `pyocd` tool [available here](https://pyocd.io/ "https://pyocd.io/"). Pyocd requires Python to be installed on your workstation ([we recommend 3.10 or later](https://www.python.org/downloads/ "https://www.python.org/downloads/")).
+To program Canvas Firmware onto the Sera NX040 DVK, use the `pyocd` tool [available here](https://pyocd.io/ "https://pyocd.io/"). Pyocd requires Python to be installed on your workstation ([we recommend 3.11.6 for best compatibility](https://www.python.org/downloads/ "https://www.python.org/downloads/")).
 Once `pyocd` is installed and you’ve attached the DVK to your workstation from the DEBUG USB port, type the following command into a terminal on your workstation to program the .hex file found as part of the firmware release:
 
 `pyocd flash -t nrf52833 480-00336-R1.0.0.1697218537_full-image.hex`
