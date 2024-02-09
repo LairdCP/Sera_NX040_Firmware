@@ -3,7 +3,10 @@
 Sera NX040 firmware is designed to get you up and developing embedded applications quickly on the Sera NX040 module using Python to operate its Ultrawideband (UWB) and Bluetooth Low Energy (BLE) radios. Hardware functionality is accessible via Python APIs and can be customized to meet the needs of the product integrating the Sera NX040 module. Python support is based on the [MicroPython](https://github.com/micropython/micropython "https://github.com/micropython/micropython") engine.
 This firmware is distributed as a `.hex` file for use with programming tools such as `pyocd` to program the internal flash of the Sera NX040 module via SWD interface. The `.bin` files included in the release package can be used to perform OTA firmware update via supported mobile application tools. See **Programming Canvas Firmware with pyOCD** below.
 
-![Canvas Logo](img/canvas_logo.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./img/canvas_logo_light.png">
+  <img src="./img/canvas_logo.png">
+</picture>
 
 This firmware is a part of the <strong>Canvas Software Suite</strong> platform providing firmware, tools, documentation and sample applications to simplify software development on Laird Connectivity wireless products.
 For more information about Canvas Software Suite see [https://www.lairdconnect.com/canvas](https://www.lairdconnect.com/canvas "https://www.lairdconnect.com/canvas").
